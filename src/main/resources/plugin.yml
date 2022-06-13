@@ -1,0 +1,4 @@
+name: DiscordChatLink
+version: '${project.version}'
+main: me.twostinkysocks.discordchatlink.DiscordChatLink
+api-version: 1.18

@@ -1,0 +1,19 @@
+discord:
+  channel-id: "1234567890"
+  bot-token: "token"
+  invalid-command-error: "The command you entered was invalid"
+  command-prefix: "-"
+  command-alerts: true
+  commands:
+    say:
+      execute: "say %0"
+    kick:
+      execute: "kick %0 %1"
+      requiredrole: "mod-role-id"
+    mute:
+      execute: "mute %0 %1 %n"
+      requiredrole: "helper-role-id"
+  embed:
+    color: "#00FF00"
+minecraft:
+  message-format: "&9[Discord] &7%username%&f: %message%"

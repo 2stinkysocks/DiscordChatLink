@@ -8,9 +8,10 @@ Discord Chat Link is a simple spigot plugin that facilitates linking a Discord c
 2. Open the config file located at `plugins/DiscordChatLink/config.yml`
 3. Replace the placeholder `channel-id` in the config with the channel ID of the Discord channel you want to use ([tutorial](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID))
 4. Create a discord bot at [Discord's developer portal](https://discord.com/developers/applications), [obtain the bot's token, and invite it to your server](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token)
-5. Replace the placeholder `bot-token` in the config file with your bot's token
-6. Make sure your bot has permission to speak in the channel you chose, and then start the Minecraft server
-7. Try typing a message ingame and in the Discord channel to test it out!
+5. **Enable the Message Content intent under the bot section of the developer portal!**
+6. Replace the placeholder `bot-token` in the config file with your bot's token
+7. Make sure your bot has permission to speak in the channel you chose, and then start the Minecraft server
+8. Try typing a message ingame and in the Discord channel to test it out!
 
 ### Commands
 
